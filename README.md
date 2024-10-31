@@ -4,7 +4,7 @@ A Python-based solution that monitors news articles for political promises and a
 
 ## Description
 
-This application monitors Estonian news sources (primarily ERR) for political promises and commitments made by politicians and institutions. It automatically detects, extracts, and catalogues these promises using natural language processing (via OpenAI's GPT) and stores them in a structured format on "Sõna ja Tegu" platform.
+This application monitors Estonian news sources (ERR, Delfi, Postimees ans other agencies) for political promises and commitments made by politicians and institutions. It automatically detects, extracts, and catalogues these promises using natural language processing (via OpenAI's GPT) and stores them in a structured format on "Sõna ja Tegu" platform.
 
 All promises tracked by this application could be found on Sõna ja tegu webpage: https://sonajategu.ee/radar
 
