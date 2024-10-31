@@ -612,11 +612,11 @@ class PromiseDetector:
     def detect_promises(self, article_text: str) -> List[Dict]:
             response = None
             try:
-                system_prompt = """Sa oled assistent, mis on spetsialiseerunud lubaduste tuvastamisele ja väljavõtmisele uudisartiklitest. Sinu ülesanne on analüüsida artikli teksti ning tuvastada kõik konkreetsed lubadused, keskendudes eelkõige poliitika ja sotsiaalsete küsimustega seotud lubadustele. Lubadus võib olla ametlik avaldus, kohustus või kinnitus, mille on esitanud poliitiline tegelane või asutus seoses tulevaste tegevuste või plaanidega. Tuvasta lubaduse puhul järgmised kriteeriumid (kui need puuduvad, jäta väli tühjaks): eesmärk (mida lubatakse teha), sihtrühm (kellele mõju avaldub), tähtaeg, eelarve (kui on mainitud), vastutav isik ja/või asutus.
-
+                system_prompt = """Sa oled assistent, mis on spetsialiseerunud lubaduste tuvastamisele ja väljavõtmisele uudisartiklitest. Palun otsi ainult Eestiga seotud uudiseid. Sinu ülesanne on analüüsida artikli teksti ning tuvastada kõik konkreetsed lubadused, keskendudes eelkõige poliitika ja sotsiaalsete küsimustega seotud lubadustele. Lubadus võib olla ametlik avaldus, kohustus või kinnitus, mille on esitanud poliitiline tegelane või asutus seoses tulevaste tegevuste või plaanidega. Tuvasta lubaduse puhul järgmised kriteeriumid (kui need puuduvad, jäta väli tühjaks): eesmärk (mida lubatakse teha), sihtrühm (kellele mõju avaldub), tähtaeg, eelarve (kui on mainitud), vastutav isik ja/või asutus.
+                
                 Samuti loo lühike mitmuses pealkiri eesti keeles, vältides pronoomenite kasutust. Pealkirjas võib kajastada erakonna nime, kui see on artiklis mainitud.
 
-                Tuvasta ja too infot ainult antud teksti põhjal. Vasta küsimustele täpselt, kasutades üksnes artikli sisu ja tekstis sisalduvaid lubadusi. Lisatõlgendused või oletused lubaduste kohta on keelatud.
+                Tuvasta ja too infot ainult antud teksti põhjal. Vasta küsimustele täpselt, kasutades üksnes artikli sisu ja tekstis sisalduvaid lubadusi. Tsiteeri seda, kes lubaduse andis, kui artiklis esineb otsene kõne. Lisatõlgendused või oletused lubaduste kohta on keelatud.
 
                 Konverteeri leitud lubadused alljärgneva JSON-vormingusse:
                 {
