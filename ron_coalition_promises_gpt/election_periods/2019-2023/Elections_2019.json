@@ -1,0 +1,21 @@
+{
+  "election_year": 2019,
+  "election_period": "2019-2023",
+  "election_date": "2019-03-03",
+  "description": "XIV Riigikogu valimised",
+  "coalition_governments": [
+    {
+      "government_id": "ratas_ii_2019",
+      "government_name": "Jüri Ratase II valitsus"
+    },
+    {
+      "government_id": "kallas_i_2021",
+      "government_name": "Kaja Kallase I valitsus"
+    },
+    {
+      "government_id": "kallas_ii_2022",
+      "government_name": "Kaja Kallase II valitsus"
+    }
+  ],
+  "party_platforms": []
+}

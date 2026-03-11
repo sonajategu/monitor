@@ -1,0 +1,17 @@
+{
+  "election_year": 2015,
+  "election_period": "2015-2019",
+  "election_date": "2015-03-01",
+  "description": "XIII Riigikogu valimised",
+  "coalition_governments": [
+    {
+      "government_id": "roivas_ii_2015",
+      "government_name": "Taavi Rõivase II valitsus"
+    },
+    {
+      "government_id": "ratas_i_2016",
+      "government_name": "Jüri Ratase I valitsus"
+    }
+  ],
+  "party_platforms": []
+}

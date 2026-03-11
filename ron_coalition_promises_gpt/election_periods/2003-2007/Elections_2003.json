@@ -1,0 +1,17 @@
+{
+  "election_year": 2003,
+  "election_period": "2003-2007",
+  "election_date": "2003-03-02",
+  "description": "XI Riigikogu valimised",
+  "coalition_governments": [
+    {
+      "government_id": "parts_2003",
+      "government_name": "Juhan Partsi valitsus"
+    },
+    {
+      "government_id": "ansip_i_2005",
+      "government_name": "Andrus Ansipi I valitsus"
+    }
+  ],
+  "party_platforms": []
+}

@@ -1,0 +1,17 @@
+{
+  "election_year": 2011,
+  "election_period": "2007-2015",
+  "election_date": "2011-03-06",
+  "description": "XII Riigikogu valimised",
+  "coalition_governments": [
+    {
+      "government_id": "ansip_iv_2011",
+      "government_name": "Andrus Ansipi IV valitsus"
+    },
+    {
+      "government_id": "roivas_i_2014",
+      "government_name": "Taavi Rõivase I valitsus"
+    }
+  ],
+  "party_platforms": []
+}

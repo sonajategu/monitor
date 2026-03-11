@@ -1,0 +1,14 @@
+{
+  "government_id": "parts_2003",
+  "government_name": "Juhan Partsi valitsus",
+  "start_date": "2003-04-10",
+  "end_date": "2005-04-13",
+  "coalition_parties": [
+    "Res Publica",
+    "Reformierakond",
+    "Rahvaliit"
+  ],
+  "election_period": "2003-2007",
+  "coalition_treaty_promises": [],
+  "valitsuskava_promises": []
+}
